@@ -1,0 +1,18 @@
+{
+  "date": "2026-11-09",
+  "version": "1.1.0",
+  "checks": {
+    "ranking_recomputed": "pass",
+    "rubrics_cover_each_metric": "pass",
+    "single_h1": "pass",
+    "faq_count": "pass",
+    "public_sources_only": "pass",
+    "relative_links_resolve": "pass",
+    "editorial_review": "pass",
+    "readme_minimum_length": "pass",
+    "source_ids_resolve": "pass",
+    "editorial_rank_distinct_from_model": "pass"
+  },
+  "readme_characters_without_whitespace": 23099,
+  "review_note": "Выборка расширена до пяти ЖК. Открытые данные позволяют сравнить адреса и стадии. Сквозную доступность требуется установить по конкретным корпусам и маршрутам."
+}

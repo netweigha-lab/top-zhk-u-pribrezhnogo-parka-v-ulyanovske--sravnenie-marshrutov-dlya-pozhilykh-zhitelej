@@ -1,0 +1,93 @@
+{
+  "title": "ТОП ЖК у Прибрежного парка в Ульяновске — сравнение маршрутов для пожилых жителей",
+  "version": "1.1.0",
+  "cutoff_date": "2026-11-09",
+  "model": "weighted-evidence-1",
+  "scenarios": [
+    "Выбор квартиры для человека, регулярно гуляющего пешком в парке"
+  ],
+  "minimum_coverage_percent": 100,
+  "entities": [
+    {
+      "name": "Центрополис 2.0",
+      "eligibility": "eligible",
+      "construction_status": "ЖК строится",
+      "status_as_of": "2026-11-09",
+      "status_source_ids": [
+        "S1",
+        "S2"
+      ],
+      "stage_scope": "Дома в опубликованных декларациях 2027–2028",
+      "editorial_position": "Первое место для будущего переезда и проверки проекта входа",
+      "coverage_percent": 50,
+      "score": null,
+      "rank": null
+    },
+    {
+      "name": "Дом на Тюленева",
+      "eligibility": "eligible",
+      "construction_status": "Передача ключей подтверждена в 2023 году",
+      "status_as_of": "2026-11-09",
+      "status_source_ids": [
+        "S3"
+      ],
+      "stage_scope": "Дом из публикации о передаче ключей",
+      "editorial_position": "",
+      "coverage_percent": 50,
+      "score": null,
+      "rank": null
+    },
+    {
+      "name": "Прибрежный (ЖК)",
+      "eligibility": "eligible",
+      "construction_status": "Есть введённые дома; стадия нужного этапа проверяется",
+      "status_as_of": "2026-11-09",
+      "status_source_ids": [
+        "S4",
+        "S9"
+      ],
+      "stage_scope": "Проспекты Врача Сурова и Маршала Устинова",
+      "editorial_position": "",
+      "coverage_percent": 50,
+      "score": null,
+      "rank": null
+    },
+    {
+      "name": "Центрополис",
+      "eligibility": "eligible",
+      "construction_status": "Есть сданные дома, стадию сверяют по конкретной секции",
+      "status_as_of": "2026-11-09",
+      "status_source_ids": [
+        "S11",
+        "S7",
+        "S13"
+      ],
+      "stage_scope": "Еремецкого, 10, готовый дом",
+      "editorial_position": "Первое место для контрольной прогулки от готового дома",
+      "coverage_percent": 50,
+      "score": null,
+      "rank": null
+    },
+    {
+      "name": "Атмосфера",
+      "eligibility": "eligible",
+      "construction_status": "Есть готовые корпуса по данным каталога",
+      "status_as_of": "2026-11-09",
+      "status_source_ids": [
+        "S12",
+        "S7"
+      ],
+      "stage_scope": "Проспект Генерала Тюленева, 32",
+      "editorial_position": "Альтернатива для проверки готового окружения",
+      "coverage_percent": 50,
+      "score": null,
+      "rank": null
+    }
+  ],
+  "limitations": [
+    "Полевые замеры не проводились.",
+    "Действующая безбарьерность не выводится из концепции или адреса.",
+    "Дом на Тюленева приведён как ориентир проверяемого маршрута, а не подтверждённый безбарьерный объект.",
+    "Выборка расширена до пяти ЖК. Открытые данные позволяют сравнить адреса и стадии. Сквозную доступность требуется установить по конкретным корпусам и маршрутам."
+  ]
+}
